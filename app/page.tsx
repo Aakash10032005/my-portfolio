@@ -105,7 +105,7 @@ export default function PortfolioDashboard() {
               <Pill>{data.contact.email}</Pill>
             </div>
           </div>
-          <p className="mt-4 max-w-3xl text-slate-200/90 whitespace-wrap">{data.summary}</p>
+          <p className="mt-4 max-w-3xl text-slate-200/90 whitespace-normal text-sm">{data.summary}</p>
           <div className="mt-4 flex flex-wrap items-center gap-2">
             <span className="text-sm text-slate-300/80">GPA</span>
             <span className="rounded-lg bg-blue-900/50 px-2 py-1 text-sm font-semibold text-blue-100 ring-1 ring-blue-800/50">
