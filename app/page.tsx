@@ -51,7 +51,7 @@ const data = {
     "4-week Industrial Internship @ CRIS (Centre for Railway Information Systems): IRCTC app pages (Flutter, Android Studio) and an Events Planner app with Firebase Auth",
     "Front-end framework for personal project ‘GreenyBee’ — a seller app for local plant sellers and nurseries",
     "Best Electronics Team — Yantra Central Hackathon: AI Fruit Quality Sorting System controllable via mobile app",
-    "4-week Industrial Internship @ DLF Pvt Ltd: solved case study with SQL on MySQL; built data dashboard (HTML/CSS/JS + PHP + SQL)",
+    "4-week Industrial Internship @ DLF Ltd.: solved case study with SQL on MySQL; built data dashboard (HTML/CSS/JS + PHP + SQL)",
     "Blood Donation Management System: donor registration & admin matching by blood type (HTML/CSS/JS + Node.js + MongoDB)",
   ],
 };
