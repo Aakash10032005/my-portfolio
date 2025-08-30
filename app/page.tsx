@@ -16,12 +16,15 @@ const data = {
     "Highly-motivated student eager to take on new challenges. Strong work ethic, adaptability and interpersonal skills. Adept at working effectively and quickly mastering new skills.",
   gpa: "8.58",
   skills: [
-    "Python (Basic)",
+    "Python (Intermediate)",
     "C/C++ (Intermediate)",
     "Java (Basic)",
-    "DSA in C/C++ (Basic)",
+    "DSA in C/C++/Python (Basic)",
     "Flutter (Intermediate)",
     "Node.js (Basic)",
+    "HTML/CSS/JS (Intermediate)",
+    "SQL (Intermediate)",
+    "React.js (Basic)",
   ],
   education: [
     {
