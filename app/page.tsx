@@ -2,7 +2,7 @@ import React from "react";
 
 const data = {
   name: "Aakash Gurumurthi",
-  role: "Student • App/Frontend Developer • Head of Events(RoboVITics - The Official Robotics Club of VIT)",
+  role: "Student • Head of Events(RoboVITics - The Official Robotics Club of VIT)",
   contact: {
     address: "A-1803, Ace Aspire, Greater Noida West, UP 201306",
     phone: "+91 7982391458",
@@ -28,7 +28,7 @@ const data = {
       school: "Vellore Institute of Technology, Vellore",
       degree: "B.Tech, Information Technology",
       bullets: [
-        "Coursework in Database Systems, Web Technologies, DSA and Communication Systems",
+        "Coursework in Database Systems, Web Technologies, DSA, AI and ML",
         "RoboVITics (Head of Events) and App Development Senior",
       ],
     },
@@ -43,14 +43,14 @@ const data = {
     },
   ],
   experiences: [
-    "Built small-scale mobile applications: Xylophone, BMI Calculator, Quiz App (Flutter)",
     "4-week Industrial Internship @ CRIS (Centre for Railway Information Systems): IRCTC app pages (Flutter, Android Studio) and an Events Planner app with Firebase Auth",
     "Front-end framework for personal project ‘GreenyBee’ — a seller app for local plant sellers and nurseries",
     "Best Electronics Team — Yantra Central Hackathon: AI Fruit Quality Sorting System controllable via mobile app",
     "4-week Industrial Internship @ DLF Ltd.: solved case study with SQL on MySQL; built data dashboard (HTML/CSS/JS + PHP + SQL)",
     "Blood Donation Management System: donor registration & admin matching by blood type (HTML/CSS/JS + Node.js + MongoDB)",
-    "Speech Emotion Recognition for Opera Performances : Utilized HuBERT Base model for audio feature extraction, processing waveforms at 16kHz with librosa, applying mean pooling to generate 768-dimensional embeddings, and training a RandomForestClassifier for classification achieving reliable performance on smaller datasets.",
-    "Multi Lingual Sign Language Recognition System: Developed a comprehensive system for recognizing sign language gestures and translating to multiple languages, integrating computer vision and machine learning algorithms.",
+    "Made a Speech Emotion Recognition for Opera Performances : Utilized HuBERT Base model for audio feature extraction, processing waveforms at 16kHz with librosa and training a RandomForestClassifier for classification achieving reliable performance on uploaded files",
+    "Made PhishBreaker: a ML-based phishing detection tool that analyzes URLs using 30 features and integrates real-time reputation data from VirusTotal. It uses a Flask web interface for easy URL scanning and reporting.",
+    "Made Multi Lingual Sign Language Recognition and Translation System: a comprehensive system for recognizing sign language gestures and translating to multiple languages, using Swin/Vision Transformer and integrating computer vision." 
   ],
 };
 
