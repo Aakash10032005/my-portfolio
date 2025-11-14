@@ -1,0 +1,69 @@
+{
+    "CallerReference": "portfolio-deployment-$(date +%s)",
+    "Aliases": {
+        "Quantity": 0
+    },
+    "DefaultRootObject": "index.html",
+    "Origins": {
+        "Quantity": 1,
+        "Items": [
+            {
+                "Id": "S3-Origin",
+                "DomainName": "my-portfolio-new-bucket.s3-website-us-east-1.amazonaws.com",
+                "CustomHeaders": {
+                    "Quantity": 0
+                },
+                "CustomOriginConfig": {
+                    "HTTPPort": 80,
+                    "HTTPSPort": 443,
+                    "OriginProtocolPolicy": "http-only",
+                    "OriginSslProtocols": {
+                        "Quantity": 3,
+                        "Items": ["TLSv1", "TLSv1.1", "TLSv1.2"]
+                    },
+                    "OriginReadTimeout": 30,
+                    "OriginKeepaliveTimeout": 5
+                }
+            }
+        ]
+    },
+    "DefaultCacheBehavior": {
+        "TargetOriginId": "S3-Origin",
+        "ViewerProtocolPolicy": "redirect-to-https",
+        "TrustedSigners": {
+            "Enabled": false,
+            "Quantity": 0
+        },
+        "ForwardedValues": {
+            "QueryString": false,
+            "Cookies": {
+                "Forward": "none"
+            },
+            "Headers": {
+                "Quantity": 0
+            }
+        },
+        "MinTTL": 0,
+        "AllowedMethods": {
+            "Quantity": 2,
+            "Items": ["GET", "HEAD"],
+            "CachedMethods": {
+                "Quantity": 2,
+                "Items": ["GET", "HEAD"]
+            }
+        },
+        "SmoothStreaming": false,
+        "Compress": true,
+        "DefaultTTL": 86400,
+        "MaxTTL": 31536000,
+        "LambdaFunctionAssociations": {
+            "Quantity": 0
+        }
+    },
+    "CacheBehaviors": {
+        "Quantity": 0
+    },
+    "Comment": "My Portfolio Dashboard",
+    "Enabled": true,
+    "IsIPV6Enabled": true
+}

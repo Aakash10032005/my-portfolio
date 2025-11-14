@@ -1,12 +1,8 @@
 import React from "react";
 
-// Dark blue themed portfolio dashboard for Vercel/Next.js
-// Drop this component into a Next.js app (e.g., app/page.tsx or pages/index.tsx)
-// TailwindCSS recommended. See chat for quick setup notes.
-
 const data = {
   name: "Aakash Gurumurthi",
-  role: "Student • App/Frontend Developer",
+  role: "Student • App/Frontend Developer • Head of Events(RoboVITics - The Official Robotics Club of VIT)",
   contact: {
     address: "A-1803, Ace Aspire, Greater Noida West, UP 201306",
     phone: "+91 7982391458",
@@ -32,7 +28,7 @@ const data = {
       school: "Vellore Institute of Technology, Vellore",
       degree: "B.Tech, Information Technology",
       bullets: [
-        "Coursework in Python, C/C++, Java and DSA",
+        "Coursework in Database Systems, Web Technologies, DSA and Communication Systems",
         "RoboVITics (Head of Events) and App Development Senior",
       ],
     },
@@ -53,13 +49,15 @@ const data = {
     "Best Electronics Team — Yantra Central Hackathon: AI Fruit Quality Sorting System controllable via mobile app",
     "4-week Industrial Internship @ DLF Ltd.: solved case study with SQL on MySQL; built data dashboard (HTML/CSS/JS + PHP + SQL)",
     "Blood Donation Management System: donor registration & admin matching by blood type (HTML/CSS/JS + Node.js + MongoDB)",
+    "Speech Emotion Recognition for Opera Performances : Utilized HuBERT Base model for audio feature extraction, processing waveforms at 16kHz with librosa, applying mean pooling to generate 768-dimensional embeddings, and training a RandomForestClassifier for classification achieving reliable performance on smaller datasets.",
+    "Multi Lingual Sign Language Recognition System: Developed a comprehensive system for recognizing sign language gestures and translating to multiple languages, integrating computer vision and machine learning algorithms.",
   ],
 };
 
 // Utility components
 function Pill({ children }: { children: React.ReactNode }) {
   return (
-    <span className="inline-flex items-center rounded-full border border-blue-700/40 bg-blue-900/30 px-3 py-1 text-sm text-blue-200 shadow-sm">
+    <span className="inline-flex items-center rounded-full border border-blue-700/40 bg-blue-900/30 px-3 py-1 text-sm text-blue-200 shadow-sm hover:bg-blue-900/50 transition-colors duration-200">
       {children}
     </span>
   );
@@ -67,7 +65,7 @@ function Pill({ children }: { children: React.ReactNode }) {
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <section className="space-y-4 rounded-2xl bg-slate-900/60 p-6 ring-1 ring-blue-900/40 shadow-lg">
+    <section className="space-y-4 rounded-2xl bg-slate-900/60 p-6 ring-1 ring-blue-900/40 shadow-lg hover:shadow-xl transition-shadow duration-300">
       <h2 className="text-xl font-semibold tracking-tight text-blue-200">{title}</h2>
       <div className="text-slate-200/90">{children}</div>
     </section>
@@ -76,7 +74,7 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 
 function Card({ title, children }: { title?: string; children: React.ReactNode }) {
   return (
-    <div className="rounded-2xl bg-slate-900/60 p-5 ring-1 ring-blue-900/40 shadow-md">
+    <div className="rounded-2xl bg-slate-900/60 p-5 ring-1 ring-blue-900/40 shadow-md hover:shadow-lg transition-shadow duration-300">
       {title && <h3 className="mb-2 text-lg font-medium text-blue-100">{title}</h3>}
       <div className="text-slate-200/90">{children}</div>
     </div>
@@ -162,13 +160,13 @@ export default function PortfolioDashboard() {
                 <div className="mt-3 grid grid-cols-1 gap-2">
                   <a
                     href={`mailto:${data.contact.email}`}
-                    className="rounded-lg border border-blue-900/40 bg-blue-900/30 px-3 py-2 text-center text-sm text-blue-100 hover:bg-blue-900/50"
+                    className="rounded-lg border border-blue-900/40 bg-blue-900/30 px-3 py-2 text-center text-sm text-blue-100 hover:bg-blue-900/50 transition-colors duration-200"
                   >
                     Email Me
                   </a>
                   <a
                     href={`tel:${data.contact.phone.replace(/\s/g, "")}`}
-                    className="rounded-lg border border-blue-900/40 bg-blue-900/30 px-3 py-2 text-center text-sm text-blue-100 hover:bg-blue-900/50"
+                    className="rounded-lg border border-blue-900/40 bg-blue-900/30 px-3 py-2 text-center text-sm text-blue-100 hover:bg-blue-900/50 transition-colors duration-200"
                   >
                     Call
                   </a>
@@ -187,15 +185,15 @@ export default function PortfolioDashboard() {
             <Section title="Quick Links">
   <div className="grid grid-cols-2 gap-3">
     <a
-      className="rounded-xl border border-blue-900/40 bg-slate-950/50 p-4 text-center text-sm text-blue-100 hover:bg-blue-900/30"
+      className="rounded-xl border border-blue-900/40 bg-slate-950/50 p-4 text-center text-sm text-blue-100 hover:bg-blue-900/30 transition-colors duration-200"
       href="/Aakash-Resume.pdf"
       download
     >
       Resume (PDF)
     </a>
     <a
-      className="rounded-xl border border-blue-900/40 bg-slate-950/50 p-4 text-center text-sm text-blue-100 hover:bg-blue-900/30"
-      href="https://github.com/Aakash10032005"  
+      className="rounded-xl border border-blue-900/40 bg-slate-950/50 p-4 text-center text-sm text-blue-100 hover:bg-blue-900/30 transition-colors duration-200"
+      href="https://github.com/Aakash10032005"
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -203,6 +201,19 @@ export default function PortfolioDashboard() {
     </a>
   </div>
 </Section>
+
+            <Section title="Connect">
+              <div className="grid grid-cols-1 gap-3">
+                <a
+                  className="rounded-xl border border-blue-900/40 bg-slate-950/50 p-4 text-center text-sm text-blue-100 hover:bg-blue-900/30 transition-colors duration-200"
+                  href="https://www.linkedin.com/in/aakash-gurumurthi-231587291/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>
+              </div>
+            </Section>
 
           </div>
         </div>
