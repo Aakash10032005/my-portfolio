@@ -43,9 +43,11 @@ const data = {
     },
   ],
   experiences: [
+    "NDA-151, SSB Recommended Candidate (2023)",
     "4-week Industrial Internship @ CRIS (Centre for Railway Information Systems): IRCTC app pages (Flutter, Android Studio) and an Events Planner app with Firebase Auth",
     "Front-end framework for personal project ‘GreenyBee’ — a seller app for local plant sellers and nurseries",
     "Best Electronics Team — Yantra Central Hackathon: AI Fruit Quality Sorting System controllable via mobile app",
+    "Made an AI based Medical Report Analyzer that allows a user to upload XRays and Pathological reports and get inference about possible anomalies detected along with a severity score to recommend how soon to visit a doctor and what precautions to take in Multiple Regional Languages on a React Based Web Dashboard.",
     "4-week Industrial Internship @ DLF Ltd.: solved case study with SQL on MySQL; built data dashboard (HTML/CSS/JS + PHP + SQL)",
     "Blood Donation Management System: donor registration & admin matching by blood type (HTML/CSS/JS + Node.js + MongoDB)",
     "Made a Speech Emotion Recognition for Opera Performances : Utilized HuBERT Base model for audio feature extraction, processing waveforms at 16kHz with librosa and training a RandomForestClassifier for classification achieving reliable performance on uploaded files",
