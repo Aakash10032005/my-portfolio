@@ -2,7 +2,7 @@ import React from "react";
 
 const data = {
   name: "Aakash Gurumurthi",
-  role: "Student • Head of Events(RoboVITics - The Official Robotics Club of VIT)",
+  role: "Student • Ex-Head of Events(RoboVITics - The Official Robotics Club of VIT)",
   contact: {
     address: "A-1803, Ace Aspire, Greater Noida West, UP 201306",
     phone: "+91 7982391458",
@@ -10,12 +10,12 @@ const data = {
   },
   summary:
     "Highly-motivated student eager to take on new challenges. Strong work ethic, adaptability and interpersonal skills. Adept at working effectively and quickly mastering new skills.",
-  gpa: "8.58",
+  gpa: "8.54",
   skills: [
-    "Python (Intermediate)",
+    "Python (Advanced)",
     "C/C++ (Intermediate)",
     "Java (Basic)",
-    "DSA in C/C++/Python (Basic)",
+    "DSA in C/C++/Python (Intermediate)",
     "Flutter (Intermediate)",
     "Node.js (Basic)",
     "HTML/CSS/JS (Intermediate)",
@@ -28,8 +28,8 @@ const data = {
       school: "Vellore Institute of Technology, Vellore",
       degree: "B.Tech, Information Technology",
       bullets: [
-        "Coursework in Database Systems, Web Technologies, DSA, AI and ML",
-        "RoboVITics (Head of Events) and App Development Senior",
+        "Coursework in Database Systems, Operating Systems, DSA, AI and ML",
+        "RoboVITics - Advisory(2026-2027), Head of Events(2025-2026), App Developer(2024-2025)",
       ],
     },
     {
@@ -52,7 +52,8 @@ const data = {
     "Blood Donation Management System: donor registration & admin matching by blood type (HTML/CSS/JS + Node.js + MongoDB)",
     "Made a Speech Emotion Recognition for Opera Performances : Utilized HuBERT Base model for audio feature extraction, processing waveforms at 16kHz with librosa and training a RandomForestClassifier for classification achieving reliable performance on uploaded files",
     "Made PhishBreaker: a ML-based phishing detection tool that analyzes URLs using 30 features and integrates real-time reputation data from VirusTotal. It uses a Flask web interface for easy URL scanning and reporting.",
-    "Made Multi Lingual Sign Language Recognition and Translation System: a comprehensive system for recognizing sign language gestures and translating to multiple languages, using Swin/Vision Transformer and integrating computer vision." 
+    "Made Multi Lingual Sign Language Recognition and Translation System: a comprehensive system for recognizing sign language gestures and translating to multiple languages, using Swin/Vision Transformer and integrating computer vision." ,
+    "Developed DAHIDS, a production-ready hybrid intrusion detection system that merges Snort 3 signature matching with a novel AI triad (ARF, LSTM, Autoencoder) to detect zero-day threats. Engineered seven custom self-healing and adaptation mechanisms—including Time-Machine Rollback and Confidence Gating—to mitigate concept drift and keep false positives under 3%. Built a high-throughput Python/FastAPI backend capable of processing 100+ flows per second with sub-50ms latency. Delivered a real-time React/MUI dashboard via WebSockets to visualize live network traffic, monitor model health, and automatically translate AI-detected anomalies into actionable Snort rule proposals."    
   ],
 };
 
