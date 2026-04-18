@@ -21,6 +21,7 @@ const data = {
     "HTML/CSS/JS (Intermediate)",
     "SQL (Intermediate)",
     "React.js (Basic)",
+    "Machine Learning (Intermediate)",
   ],
   education: [
     {
@@ -45,7 +46,7 @@ const data = {
   experiences: [
     "NDA-151, SSB Recommended Candidate (2023)",
     "4-week Industrial Internship @ CRIS (Centre for Railway Information Systems): IRCTC app pages (Flutter, Android Studio) and an Events Planner app with Firebase Auth",
-    "Front-end framework for personal project ‘GreenyBee’ — a seller app for local plant sellers and nurseries",
+    "Front-end framework for personal project ‘GreenyBee’ -a seller app for local plant sellers and nurseries",
     "Best Electronics Team — Yantra Central Hackathon: AI Fruit Quality Sorting System controllable via mobile app",
     "Made an AI based Medical Report Analyzer that allows a user to upload XRays and Pathological reports and get inference about possible anomalies detected along with a severity score to recommend how soon to visit a doctor and what precautions to take in Multiple Regional Languages on a React Based Web Dashboard.",
     "4-week Industrial Internship @ DLF Ltd.: solved case study with SQL on MySQL; built data dashboard (HTML/CSS/JS + PHP + SQL)",
@@ -53,7 +54,7 @@ const data = {
     "Made a Speech Emotion Recognition for Opera Performances : Utilized HuBERT Base model for audio feature extraction, processing waveforms at 16kHz with librosa and training a RandomForestClassifier for classification achieving reliable performance on uploaded files",
     "Made PhishBreaker: a ML-based phishing detection tool that analyzes URLs using 30 features and integrates real-time reputation data from VirusTotal. It uses a Flask web interface for easy URL scanning and reporting.",
     "Made Multi Lingual Sign Language Recognition and Translation System: a comprehensive system for recognizing sign language gestures and translating to multiple languages, using Swin/Vision Transformer and integrating computer vision." ,
-    "Developed DAHIDS, a production-ready hybrid intrusion detection system that merges Snort 3 signature matching with a novel AI triad (ARF, LSTM, Autoencoder) to detect zero-day threats. Engineered seven custom self-healing and adaptation mechanisms—including Time-Machine Rollback and Confidence Gating—to mitigate concept drift and keep false positives under 3%. Built a high-throughput Python/FastAPI backend capable of processing 100+ flows per second with sub-50ms latency. Delivered a real-time React/MUI dashboard via WebSockets to visualize live network traffic, monitor model health, and automatically translate AI-detected anomalies into actionable Snort rule proposals."    
+    "Developed DAHIDS, a production-ready hybrid intrusion detection system that merges Snort 3 signature matching with a novel AI triad (ARF, LSTM, Autoencoder) to detect zero-day threats. Engineered seven custom self-healing and adaptation mechanisms-including Time-Machine Rollback and Confidence Gating—to mitigate concept drift and keep false positives under 3%. Built a high-throughput Python/FastAPI backend capable of processing 100+ flows per second with sub-50ms latency. Delivered a real-time React/MUI dashboard via WebSockets to visualize live network traffic, monitor model health, and automatically translate AI-detected anomalies into actionable Snort rule proposals."    
   ],
 };
 
