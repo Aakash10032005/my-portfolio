@@ -124,8 +124,8 @@ export default function PortfolioDashboard() {
             <Section title="Experience & Projects">
               <ul className="space-y-3">
                 {data.experiences.map((item, idx) => (
-                  <li key={idx} className="flex gap-3">
-                    <span className="mt-1 inline-block h-2 w-2 rounded-full bg-blue-400/90" />
+                  <li key={idx} className="flex items-start gap-3">
+                    <span className="mt-2 shrink-0 inline-block h-2 w-2 rounded-full bg-blue-400/90" />
                     <span className="leading-relaxed">{item}</span>
                   </li>
                 ))}
