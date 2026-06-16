@@ -54,7 +54,7 @@ const data = {
     "Made a Speech Emotion Recognition for Opera Performances : Utilized HuBERT Base model for audio feature extraction, processing waveforms at 16kHz with librosa and training a RandomForestClassifier for classification achieving reliable performance on uploaded files",
     "Made PhishBreaker: a ML-based phishing detection tool that analyzes URLs using 30 features and integrates real-time reputation data from VirusTotal. It uses a Flask web interface for easy URL scanning and reporting.",
     "Made Multi Lingual Sign Language Recognition and Translation System: a comprehensive system for recognizing sign language gestures and translating to multiple languages, using Swin/Vision Transformer and integrating computer vision." ,
-    "Developed DAHIDS, a production-ready hybrid intrusion detection system that merges Snort 3 signature matching with a novel AI triad (ARF, LSTM, Autoencoder) to detect zero-day threats. Engineered seven custom self-healing and adaptation mechanisms-including Time-Machine Rollback and Confidence Gating—to mitigate concept drift and keep false positives under 3%. Built a high-throughput Python/FastAPI backend capable of processing 100+ flows per second with sub-50ms latency. Delivered a real-time React/MUI dashboard via WebSockets to visualize live network traffic, monitor model health, and automatically translate AI-detected anomalies into actionable Snort rule proposals.",
+    "Developed DAHIDS, a production-ready hybrid intrusion detection system that merges Snort 3 signature matching with a novel AI triad (ARF, LSTM, Autoencoder) to detect zero-day threats. Engineered seven custom self-healing and adaptation mechanisms-including Time-Machine Rollback and Confidence Gating to mitigate concept drift and keep false positives under 3%. Built a high-throughput Python/FastAPI backend capable of processing 100+ flows per second with sub-50ms latency. Delivered a real-time React/MUI dashboard via WebSockets to visualize live network traffic, monitor model health, and automatically translate AI-detected anomalies into actionable Snort rule proposals.",
     "Published Patent (Application No. 202641066395, India - Filed 26/05/2026, Published 12/06/2026): A Resilient Zero-Infrastructure Peer-to-Peer Emergency Communication System which is a fully decentralized, fault-tolerant P2P emergency communication system in Python that operates without centralized servers, cellular infrastructure, or internet connectivity. Implemented zero-configuration node discovery via UDP multicast, gossip protocol with anti-entropy over TCP for eventual consistency, Lamport logical clocks for event ordering, and SQLite for persistent decentralized storage. Developed a real-time Flask-based web dashboard for visualizing live message streams, network topology, and peer status across mobile and desktop."
   ],
 };
@@ -206,7 +206,7 @@ export default function PortfolioDashboard() {
     </a>
     <a
       className="col-span-2 rounded-xl border border-blue-900/40 bg-slate-950/50 p-4 text-center text-sm text-blue-100 hover:bg-blue-900/30 transition-colors duration-200"
-      href="/Akash R-IPR0004120P_PUB_1781518837_copy.pdf"
+      href="https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/ApplicationNumber"
       target="_blank"
       rel="noopener noreferrer"
     >
