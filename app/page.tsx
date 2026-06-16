@@ -206,7 +206,7 @@ export default function PortfolioDashboard() {
     </a>
     <a
       className="col-span-2 rounded-xl border border-blue-900/40 bg-slate-950/50 p-4 text-center text-sm text-blue-100 hover:bg-blue-900/30 transition-colors duration-200"
-      href="https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/ApplicationNumber"
+      href="https://iprsearch.ipindia.gov.in/publicsearch"
       target="_blank"
       rel="noopener noreferrer"
     >
