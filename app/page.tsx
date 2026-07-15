@@ -2,60 +2,113 @@ import React from "react";
 
 const data = {
   name: "Aakash Gurumurthi",
-  role: "Student • Ex-Head of Events(RoboVITics - The Official Robotics Club of VIT)",
+  role: "B.Tech Information Technology Student | Full-Stack & ML Developer",
   contact: {
     address: "A-1803, Ace Aspire, Greater Noida West, UP 201306",
     phone: "+91 7982391458",
     email: "imaakash.gurumurthi@gmail.com",
   },
   summary:
-    "Highly-motivated student eager to take on new challenges. Strong work ethic, adaptability and interpersonal skills. Adept at working effectively and quickly mastering new skills.",
-  gpa: "8.55",
-  skills: [
-    "Python (Advanced)",
-    "C/C++ (Intermediate)",
-    "Java (Basic)",
-    "DSA in C/C++/Python (Intermediate)",
-    "Flutter (Intermediate)",
-    "Node.js (Basic)",
-    "HTML/CSS/JS (Intermediate)",
-    "SQL (Intermediate)",
-    "React.js (Basic)",
-    "Machine Learning (Intermediate)",
+    "Final-year Information Technology student with hands-on development experience across machine learning, cybersecurity, distributed systems, and full-stack engineering.",
+  gpa: "8.54",
+  skillCategories: [
+    { label: "Languages", items: ["Python", "C++", "C", "Java", "SQL", "PHP"] },
+    { label: "Web & Mobile", items: ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Node.js", "Flutter", "FastAPI", "Flask"] },
+    { label: "ML & AI", items: ["HuBERT", "Random Forest", "LSTM", "Autoencoders", "Vision/Swin Transformers", "Computer Vision", "Librosa"] },
+    { label: "Cybersecurity", items: ["Snort 3", "Intrusion Detection Systems", "UDP/TCP Protocols", "VirusTotal API"] },
+    { label: "Databases & Tools", items: ["MySQL", "MongoDB", "SQLite", "Firebase", "Git/GitHub", "Android Studio"] },
   ],
   education: [
     {
       when: "Aug 2023 – Present",
-      school: "Vellore Institute of Technology, Vellore",
-      degree: "B.Tech, Information Technology",
+      school: "Vellore Institute of Technology, Vellore, Tamil Nadu",
+      degree: "B.Tech in Information Technology | CGPA: 8.54",
       bullets: [
-        "Coursework in Database Systems, Operating Systems, DSA, AI and ML",
-        "RoboVITics - Advisory(2026-2027), Head of Events(2025-2026), App Developer(2024-2025)",
+        "Relevant Coursework: Database Systems, Operating Systems, Data Structures & Algorithms, AI & ML",
+        "RoboVITics — Advisory (2026–2027), Head of Events (2025–2026), App Developer (2024–2025)",
       ],
     },
     {
       when: "March 2022 – March 2023",
       school: "Seth Anandram Jaipuria School, Vasundhara, Ghaziabad",
-      degree: "Class 12 (Science)",
+      degree: "Class 12, Science (PCM) | CBSE Board | Score: 92%",
+      bullets: [],
+    },
+    {
+      when: "March 2020 – March 2021",
+      school: "Seth Anandram Jaipuria School, Vasundhara, Ghaziabad",
+      degree: "Class 10 | CBSE Board | Score: 97.5%",
+      bullets: [],
+    },
+  ],
+  internships: [
+    {
+      title: "App Development Intern — Centre for Railway Information Systems (CRIS)",
+      when: "June 2025 – July 2025",
       bullets: [
-        "Physics, Chemistry, Mathematics",
-        "92% in CBSE Class 12 Board Examinations",
+        "Developed native UI pages for the IRCTC mobile application using Flutter and Android Studio.",
+        "Built a cross-platform Events Planner application integrated with secure Firebase Authentication workflows.",
+      ],
+    },
+    {
+      title: "Web Development and Database Intern — DLF Ltd.",
+      when: "May 2025 – June 2025",
+      bullets: [
+        "Queried complex commercial datasets in a case study about a mobile phone distributor using relational joins and aggregate functions on MySQL.",
+        "Built an interactive data dashboard using HTML, CSS, JavaScript, PHP, and SQL to track leasing metrics.",
       ],
     },
   ],
-  experiences: [
-    "NDA-151, SSB Recommended Candidate (2023)",
-    "4-week Industrial Internship @ CRIS (Centre for Railway Information Systems): IRCTC app pages (Flutter, Android Studio) and an Events Planner app with Firebase Auth",
-    "Front-end framework for personal project ‘GreenyBee’ -a seller app for local plant sellers and nurseries",
-    "Best Electronics Team - Yantra Central Hackathon: AI Fruit Quality Sorting System controllable via mobile app",
-    "Made an AI based Medical Report Analyzer that allows a user to upload XRays and Pathological reports and get inference about possible anomalies detected along with a severity score to recommend how soon to visit a doctor and what precautions to take in Multiple Regional Languages on a React Based Web Dashboard.",
-    "4-week Industrial Internship @ DLF Ltd.: solved case study with SQL on MySQL; built data dashboard (HTML/CSS/JS + PHP + SQL)",
-    "Blood Donation Management System: donor registration & admin matching by blood type (HTML/CSS/JS + Node.js + MongoDB)",
-    "Made a Speech Emotion Recognition for Opera Performances : Utilized HuBERT Base model for audio feature extraction, processing waveforms at 16kHz with librosa and training a RandomForestClassifier for classification achieving reliable performance on uploaded files",
-    "Made PhishBreaker: a ML-based phishing detection tool that analyzes URLs using 30 features and integrates real-time reputation data from VirusTotal. It uses a Flask web interface for easy URL scanning and reporting.",
-    "Made Multi Lingual Sign Language Recognition and Translation System: a comprehensive system for recognizing sign language gestures and translating to multiple languages, using Swin/Vision Transformer and integrating computer vision." ,
-    "Developed DAHIDS, a production-ready hybrid intrusion detection system that merges Snort 3 signature matching with a novel AI triad (ARF, LSTM, Autoencoder) to detect zero-day threats. Engineered seven custom self-healing and adaptation mechanisms-including Time-Machine Rollback and Confidence Gating to mitigate concept drift and keep false positives under 3%. Built a high-throughput Python/FastAPI backend capable of processing 100+ flows per second with sub-50ms latency. Delivered a real-time React/MUI dashboard via WebSockets to visualize live network traffic, monitor model health, and automatically translate AI-detected anomalies into actionable Snort rule proposals.",
-    "Published Patent (Application No. 202641066395, India - Filed 26/05/2026, Published 12/06/2026): A Resilient Zero-Infrastructure Peer-to-Peer Emergency Communication System which is a fully decentralized, fault-tolerant P2P emergency communication system in Python that operates without centralized servers, cellular infrastructure, or internet connectivity. Implemented zero-configuration node discovery via UDP multicast, gossip protocol with anti-entropy over TCP for eventual consistency, Lamport logical clocks for event ordering, and SQLite for persistent decentralized storage. Developed a real-time Flask-based web dashboard for visualizing live message streams, network topology, and peer status across mobile and desktop."
+  projects: [
+    {
+      title: "Drift-Aware Hybrid Intrusion Detection System (DAHIDS)",
+      bullets: [
+        "Engineered a production-ready hybrid IDS merging Snort 3 signature matching with an Adaptive Random Forest, LSTM, and Autoencoder triad to detect zero-day threats.",
+        "Designed 7 custom self-healing workflows including Time-Machine Rollback and Confidence Gating, reducing false-positive rates to under 3%.",
+        "Structured a FastAPI backend processing 100+ network flows per second with sub-50ms latency.",
+        "Delivered a real-time React/MUI dashboard via WebSockets for live traffic visualization, model health monitoring, and custom Snort rule recommendations.",
+      ],
+    },
+    {
+      title: "Decentralized P2P Messaging System — Patented (App No. 202641066395, India, Filed May 2026)",
+      bullets: [
+        "Designed a zero-configuration, fault-tolerant decentralized messaging network in Python using UDP multicast for node discovery.",
+        "Implemented gossip protocol and anti-entropy mechanisms over TCP for eventual consistency, with Lamport logical clocks for absolute event ordering.",
+        "Managed local message stores using SQLite and built a real-time Flask web dashboard visualizing message streams, network topology, and peer status.",
+      ],
+    },
+    {
+      title: "Multi-Lingual Sign Language Translation System",
+      bullets: [
+        "Built a computer vision pipeline using Swin/Vision Transformer architecture to translate sign language gestures into text across multiple languages.",
+        "Managed real-time camera frame streams using OpenCV to achieve low-latency gesture recognition.",
+      ],
+    },
+    {
+      title: "Speech Emotion Recognition for Opera Performances",
+      bullets: [
+        "Extracted audio waveforms processed at 16kHz via Librosa using the HuBERT Base framework for feature extraction.",
+        "Trained a Random Forest classifier that reliably identifies operatic vocal sentiments from uploaded audio files.",
+      ],
+    },
+    {
+      title: "PhishBreaker: Machine Learning URL Analyzer",
+      bullets: [
+        "Developed an endpoint security utility classifying malicious URLs based on 30 structural and network features.",
+        "Integrated the VirusTotal API to supply live domain reputation intelligence to a Flask web application interface.",
+      ],
+    },
+    {
+      title: "AI-Based Medical Report Analyzer",
+      bullets: [
+        "Built a tool enabling users to upload X-rays and pathology reports to receive anomaly inference, severity scoring, and precautions in multiple regional languages via a React-based dashboard.",
+      ],
+    },
+  ],
+  honors: [
+    "SSB Recommended Candidate: AIR 462 (NDA-151 Course), 2023.",
+    "Best Electronics Team: Awarded first place at the Yantra Central Hackathon for an AI-based automated fruit sorting system, controllable via a mobile application.",
+    "Head of Events, RoboVITics Robotics Club (2025–2026): Managed operations, budgets, and technical logistics for university-wide events. Also serving in Advisory role (2026–2027) and as App Developer (2024–2025).",
   ],
 };
 
@@ -89,10 +142,9 @@ function Card({ title, children }: { title?: string; children: React.ReactNode }
 export default function PortfolioDashboard() {
   return (
     <main className="min-h-screen w-full bg-[#0b1220] text-slate-100">
-      {/* Top gradient/texture */}
+      {/* Top gradient */}
       <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(70%_50%_at_50%_0%,rgba(56,189,248,0.25)_0%,rgba(0,0,0,0)_70%)]" />
 
-      {/* Container */}
       <div className="mx-auto max-w-6xl px-4 py-10 md:py-14">
         {/* Header */}
         <header className="mb-8 rounded-2xl border border-blue-900/40 bg-slate-950/70 p-6 shadow-2xl backdrop-blur">
@@ -121,38 +173,86 @@ export default function PortfolioDashboard() {
         <div className="grid grid-cols-1 gap-6 md:grid-cols-5">
           {/* Left column */}
           <div className="md:col-span-3 space-y-6">
-            <Section title="Experience & Projects">
-              <ul className="space-y-3">
-                {data.experiences.map((item, idx) => (
-                  <li key={idx} className="flex items-start gap-3">
-                    <span className="mt-2 shrink-0 inline-block h-2 w-2 rounded-full bg-blue-400/90" />
-                    <span className="leading-relaxed">{item}</span>
-                  </li>
+
+            {/* Internships */}
+            <Section title="Professional Experience">
+              <div className="space-y-5">
+                {data.internships.map((job, idx) => (
+                  <div key={idx}>
+                    <div className="flex flex-col gap-1 md:flex-row md:items-center md:justify-between mb-2">
+                      <h3 className="font-medium text-blue-100 text-sm">{job.title}</h3>
+                      <span className="rounded-lg bg-blue-900/40 px-2 py-1 text-xs font-medium text-blue-200 ring-1 ring-blue-900/50 shrink-0">
+                        {job.when}
+                      </span>
+                    </div>
+                    <ul className="space-y-1">
+                      {job.bullets.map((b, i) => (
+                        <li key={i} className="flex items-start gap-3">
+                          <span className="mt-2 shrink-0 inline-block h-2 w-2 rounded-full bg-blue-400/90" />
+                          <span className="leading-relaxed text-sm">{b}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 ))}
-              </ul>
+              </div>
             </Section>
 
+            {/* Projects */}
+            <Section title="Key Projects">
+              <div className="space-y-5">
+                {data.projects.map((proj, idx) => (
+                  <div key={idx}>
+                    <h3 className="font-medium text-blue-100 text-sm mb-2">{proj.title}</h3>
+                    <ul className="space-y-1">
+                      {proj.bullets.map((b, i) => (
+                        <li key={i} className="flex items-start gap-3">
+                          <span className="mt-2 shrink-0 inline-block h-2 w-2 rounded-full bg-blue-400/90" />
+                          <span className="leading-relaxed text-sm">{b}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </Section>
+
+            {/* Education */}
             <Section title="Education">
               <div className="space-y-4">
                 {data.education.map((ed, idx) => (
                   <Card key={idx}>
                     <div className="flex flex-col items-start justify-between gap-1 md:flex-row md:items-center">
                       <div>
-                        <h4 className="text-lg font-semibold text-blue-100">{ed.school}</h4>
+                        <h4 className="text-base font-semibold text-blue-100">{ed.school}</h4>
                         <p className="text-sm text-blue-200/80">{ed.degree}</p>
                       </div>
-                      <span className="rounded-lg bg-blue-900/40 px-2 py-1 text-xs font-medium text-blue-200 ring-1 ring-blue-900/50">
+                      <span className="rounded-lg bg-blue-900/40 px-2 py-1 text-xs font-medium text-blue-200 ring-1 ring-blue-900/50 shrink-0">
                         {ed.when}
                       </span>
                     </div>
-                    <ul className="mt-3 list-disc space-y-1 pl-5 text-sm">
-                      {ed.bullets.map((b, i) => (
-                        <li key={i}>{b}</li>
-                      ))}
-                    </ul>
+                    {ed.bullets.length > 0 && (
+                      <ul className="mt-3 list-disc space-y-1 pl-5 text-sm">
+                        {ed.bullets.map((b, i) => (
+                          <li key={i}>{b}</li>
+                        ))}
+                      </ul>
+                    )}
                   </Card>
                 ))}
               </div>
+            </Section>
+
+            {/* Honors */}
+            <Section title="Honors & Leadership">
+              <ul className="space-y-3">
+                {data.honors.map((item, idx) => (
+                  <li key={idx} className="flex items-start gap-3">
+                    <span className="mt-2 shrink-0 inline-block h-2 w-2 rounded-full bg-blue-400/90" />
+                    <span className="leading-relaxed text-sm">{item}</span>
+                  </li>
+                ))}
+              </ul>
             </Section>
           </div>
 
@@ -180,40 +280,47 @@ export default function PortfolioDashboard() {
             </Section>
 
             <Section title="Skills">
-              <div className="flex flex-wrap gap-2">
-                {data.skills.map((s, i) => (
-                  <Pill key={i}>{s}</Pill>
+              <div className="space-y-3">
+                {data.skillCategories.map((cat, i) => (
+                  <div key={i}>
+                    <p className="text-xs font-semibold text-blue-300/80 uppercase tracking-wider mb-1">{cat.label}</p>
+                    <div className="flex flex-wrap gap-1.5">
+                      {cat.items.map((s, j) => (
+                        <Pill key={j}>{s}</Pill>
+                      ))}
+                    </div>
+                  </div>
                 ))}
               </div>
             </Section>
 
             <Section title="Quick Links">
-  <div className="grid grid-cols-2 gap-3">
-    <a
-      className="rounded-xl border border-blue-900/40 bg-slate-950/50 p-4 text-center text-sm text-blue-100 hover:bg-blue-900/30 transition-colors duration-200"
-      href="/Aakash-Resume.pdf"
-      download
-    >
-      Resume (PDF)
-    </a>
-    <a
-      className="rounded-xl border border-blue-900/40 bg-slate-950/50 p-4 text-center text-sm text-blue-100 hover:bg-blue-900/30 transition-colors duration-200"
-      href="https://github.com/Aakash10032005"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      GitHub
-    </a>
-    <a
-      className="col-span-2 rounded-xl border border-blue-900/40 bg-slate-950/50 p-4 text-center text-sm text-blue-100 hover:bg-blue-900/30 transition-colors duration-200"
-      href="https://iprsearch.ipindia.gov.in/publicsearch"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Patent: App No. 202641066395 (India)
-    </a>
-  </div>
-</Section>
+              <div className="grid grid-cols-2 gap-3">
+                <a
+                  className="rounded-xl border border-blue-900/40 bg-slate-950/50 p-4 text-center text-sm text-blue-100 hover:bg-blue-900/30 transition-colors duration-200"
+                  href="/Aakash-Resume.pdf"
+                  download
+                >
+                  Resume (PDF)
+                </a>
+                <a
+                  className="rounded-xl border border-blue-900/40 bg-slate-950/50 p-4 text-center text-sm text-blue-100 hover:bg-blue-900/30 transition-colors duration-200"
+                  href="https://github.com/Aakash10032005"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+                <a
+                  className="col-span-2 rounded-xl border border-blue-900/40 bg-slate-950/50 p-4 text-center text-sm text-blue-100 hover:bg-blue-900/30 transition-colors duration-200"
+                  href="https://iprsearch.ipindia.gov.in/publicsearch"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Patent: App No. 202641066395 (India)
+                </a>
+              </div>
+            </Section>
 
             <Section title="Connect">
               <div className="grid grid-cols-1 gap-3">
@@ -227,7 +334,6 @@ export default function PortfolioDashboard() {
                 </a>
               </div>
             </Section>
-
           </div>
         </div>
 
