@@ -43,7 +43,7 @@ const data = {
   ],
   internships: [
     {
-      title: "App Development Intern — Centre for Railway Information Systems (CRIS)",
+      title: "App Development Intern-Centre for Railway Information Systems (CRIS)",
       when: "June 2025 – July 2025",
       bullets: [
         "Developed native UI pages for the IRCTC mobile application using Flutter and Android Studio.",
@@ -51,7 +51,7 @@ const data = {
       ],
     },
     {
-      title: "Web Development and Database Intern — DLF Ltd.",
+      title: "Web Development and Database Intern-DLF Ltd.",
       when: "May 2025 – June 2025",
       bullets: [
         "Queried complex commercial datasets in a case study about a mobile phone distributor using relational joins and aggregate functions on MySQL.",
@@ -70,7 +70,7 @@ const data = {
       ],
     },
     {
-      title: "Decentralized P2P Messaging System — Patented (App No. 202641066395, India, Filed May 2026)",
+      title: "Decentralized P2P Messaging System-Patented (App No. 202641066395, India, Filed May 2026)",
       bullets: [
         "Designed a zero-configuration, fault-tolerant decentralized messaging network in Python using UDP multicast for node discovery.",
         "Implemented gossip protocol and anti-entropy mechanisms over TCP for eventual consistency, with Lamport logical clocks for absolute event ordering.",
